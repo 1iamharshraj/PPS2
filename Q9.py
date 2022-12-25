@@ -1,0 +1,1 @@
+print("".join(map(lambda x : x if x.casefold() not in ["a","e","i","o","u"] else "",input())))
