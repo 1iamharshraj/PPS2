@@ -69,4 +69,3 @@ else:
         print(room)
     else:
         print(SpecNumInRange(IsPerfectSq, 637 + mark, 1000))
-
