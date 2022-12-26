@@ -11,7 +11,7 @@ def is_1prime(dic):  # function for checking prime number
             return True
     return False
 
-
+ 
 def is_1palindrome(dic):  # function for checking palindrome
     for i in ele["str"]:
         if i.casefold() == i.casefold()[::-1]:
@@ -79,4 +79,4 @@ elif not (is_1prime(ele) or is_1palindrome(ele)):
     unpack(lst)
     print(lst)
 else:
-    print(lst)
+    print(lst) 
